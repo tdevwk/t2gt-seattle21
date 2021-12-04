@@ -1,0 +1,37 @@
+html,
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    /*width: 100%;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffefd6;
+    background-image: url(contact.svg);
+}
+
+.navbar {
+    background-color: #69a9b2 !important;
+    width: 1500px;
+    height: 80px;
+}
+
+.big-heading {
+    margin: 10% 30%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #ffefd6;
+}
+
+.contact-info {
+    font-weight: bold;
+    margin-top: 70%;
+    margin-left: 50%;
+}
+
+.btn {
+    padding: 20px 30px;
+    margin: 50px;
+}
