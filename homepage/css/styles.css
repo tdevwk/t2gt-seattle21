@@ -1,0 +1,30 @@
+html,
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100%;
+    /*width: 100%;*/
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffefd6;
+    background-image: url(bg.svg);
+}
+
+.navbar {
+    background-color: #69a9b2 !important;
+    width: 1500px;
+    height: 80px;
+}
+
+.big-heading {
+    padding: 100px 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 5.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.btn {
+    padding: 20px 30px;
+    margin: 50px;
+}
