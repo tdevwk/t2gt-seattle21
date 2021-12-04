@@ -7,7 +7,7 @@ body {
     /*width: 100%;*/
     font-family: 'Raleway', sans-serif;
     background-color: #ffefd6;
-    background-image: url(bg.svg);
+    background-image: url(contact.svg);
 }
 
 .navbar {
@@ -17,11 +17,18 @@ body {
 }
 
 .big-heading {
-    padding: 50px 0 0;
+    margin: 10% 30%;
     font-family: "Montserrat", sans-serif;
-    font-size: 5.5rem;
-    font-weight: bold;
+    font-size: 4rem;
+    font-weight: bolder;
     line-height: 1.5;
+    color: #ffefd6;
+}
+
+.contact-info {
+    font-weight: bold;
+    margin-top: 70%;
+    margin-left: 50%;
 }
 
 .btn {
