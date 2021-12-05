@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
@@ -57,7 +58,7 @@
                     </div>
                 </div>
                 <div class="card-body">
-                    <form action="authenticate.php" method="post">
+                    <form action="register.php" method="post" autocomplete="off">
                         <div class="input-group form-group">
                             <div class="input-group-prepend">
                                 <span class="input-group-text"><i class="fas fa-user"></i></span>
@@ -70,6 +71,12 @@
                                 <span class="input-group-text"><i class="fas fa-key"></i></span>
                             </div>
                             <input type="password" class="form-control" placeholder="password", id="password" required>
+                        </div>
+                        <div class="input-group form-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="email", id="email" required>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Sign Up" class="btn float-right login_btn">
