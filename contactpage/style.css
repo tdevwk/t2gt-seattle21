@@ -2,7 +2,7 @@ html,
 body {
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /*overflow: hidden;*/
     height: 100%;
     /*width: 100%;*/
     font-family: 'Raleway', sans-serif;
@@ -34,7 +34,8 @@ body {
 .contact-info {
     font-weight: bold;
     margin-top: 70%;
-    margin-left: 50%;
+    /*margin-left: 50%;*/
+    margin-left: 25%;
 }
 
 .btn {
