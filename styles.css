@@ -42,4 +42,6 @@ body {
 .row{
     position: relative;
     left: -50px;
+    width: 100%;
+    
 }
