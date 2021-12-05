@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<title>Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: left;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Placeholder image */
+.placeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Button */
+.button {
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+}
+
+.button1 {background-color: white;} /* White */
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: white;} /* White */
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="quiksave logo light.png" alt="Quiksave logo" width="95" height="75">
+  <p>The easiest way to save and give.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Dashboard</a>
+  <a href="#">My List</a>
+  <a href="#" style="float:right">Sign out</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+      <div class="card">
+      <h2>My List</h2>
+      <p>Created 2021 December 1</p>
+    </div>
+    
+<div class="w3-container">
+  <h3>Laptop</h3>
+  <p>Cost:$3000</p>
+  <img src="laptop-pic-altumcode-FoTs3ntRoIs-unsplash.jpg" class="w3-round-xlarge" alt="Laptop" style="width:30%">
+</div>
+
+<div class="w3-container">
+  <h3>Nintendo Switch</h3>
+  <p>Cost: $495</p>
+  <img src="switch-pic-daniel-rykhev-UuLX0r-gKJI-unsplash.jpg" class="w3-round-xlarge" alt="Switch" style="width:30%">
+</div>
+
+<div class="w3-container">
+  <h3>Camera</h3>
+  <p>Cost: $510</p>
+  <img src="canon-camera-pic-andrew-hutchings-W2Dta_Yiwfw-unsplash.jpg" class="w3-round-xlarge" alt="Camera" style="width:30%">
+</div>
+
+<div class="card">
+    <h4>Help those in need!</h4>
+    <img src="gift icon 1 light.png" alt="Gift" width="500" height="600">
+    <button class="button button1">Send a gift</button>
+</div>
+   
+<div class="rightcolumn">
+    <div class="card">
+      <h2>Current Savings Balance</h2>
+      <h5>$5000</h5>
+</div>
+
+<div class="card">
+    <h3>Add to your list</h3>
+    <img src="headphones-pic-yarenci-hdz-Tt_TIhVpYoM-unsplash.jpg" alt="Headphones" width="100" height="200">
+    <button class="button button2">Add item</button>
+    <div class="placeimg"></div>
+</div>
+
+<div class="card">
+    <h3>Savings Learning Center</h3>
+    <button class="button button3">Learn more</button>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
