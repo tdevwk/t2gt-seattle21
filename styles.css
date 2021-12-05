@@ -2,7 +2,7 @@ html,
 body {
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: auto;
+    /*overflow: auto;*/
     height: 100%;
     /*width: 100%;*/
     font-family: 'Raleway', sans-serif;
