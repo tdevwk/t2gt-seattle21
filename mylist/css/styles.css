@@ -8,11 +8,12 @@ body {
     font-family: 'Raleway', sans-serif;
     background-color: #ffefd6;
     background-image: url(dashboard-bg.svg);
+    /*margin: 0px;*/
 }
 
 .navbar {
     background-color: #69a9b2 !important;
-    width: 1800px;
+    width: 100%;
     height: 80px;
 }
 
